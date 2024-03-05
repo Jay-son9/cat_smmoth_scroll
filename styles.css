@@ -2,18 +2,39 @@ body {
 	font-family: Arial;
 	color: #333;
 	padding-top: 200px;
+	height: 100%;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 header {
-	background:rgba(167, 164, 164, 0.9);
+	background:rgb(221, 61, 61);
 	width: 100%;
 	position: fixed;
 	top: 0;
 	height: 160px;
+	z-index: 2;
 }
 
 header h1 {
 	text-align: center;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-wrapper {
+	display: flex;
+}
+.left { 
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: rgb(227, 241, 236);
+}
+.right {
+	width: 70%;
 }
 
 p {
